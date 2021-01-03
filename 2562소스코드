@@ -1,0 +1,10 @@
+max = 0
+list =[]
+for i in range(9):
+    num = int(input())
+    list.append(num)
+    if num>max:
+        max = num
+        size = i+1
+print(max)
+print(size)
