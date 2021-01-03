@@ -1,4 +1,4 @@
-case = int(input()) #테스트 케이스 개수
+case = int(input())  #테스트 케이스 개수
 per =[]
 for _ in range(case):
     n,*a =list(map(int,input().split()))    #학생 수n, n명의 점수리스트a
